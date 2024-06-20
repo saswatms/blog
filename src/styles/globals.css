@@ -1,0 +1,94 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  background: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+  padding: 2em 1em;
+  max-width: 800px;
+  margin: auto;
+}
+
+.post-card {
+  background: #fff;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h2 {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+.post-card p {
+  margin-bottom: 1em;
+}
+
+.post-card a {
+  text-decoration: none;
+  color: #0070f3;
+}
+
+.post-card a:hover {
+  text-decoration: underline;
+}
+
+.post-page h1 {
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.post-page .content {
+  background: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-page .content h2 {
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+.post-page .content p {
+  margin-top: 1em;
+}
