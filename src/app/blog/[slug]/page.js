@@ -50,7 +50,6 @@ export default async function Post({ params }) {
 
   return (
     <main className="post-page">
-      <h1>{post.title}</h1>
       <div
         className="content"
         dangerouslySetInnerHTML={{ __html: post.contentHtml }}
